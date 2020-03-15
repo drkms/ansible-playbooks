@@ -1,3 +1,2 @@
 ---
-- include: init.yml
 - include: packages.yml

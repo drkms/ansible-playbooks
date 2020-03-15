@@ -1,8 +1,0 @@
----
-- name: "[Debian] Upgrading all packages"
-  become: yes
-  apt:
-    upgrade: dist
-  when: ansible_pkg_mgr == "apt"
-  tags:
-    - common%
