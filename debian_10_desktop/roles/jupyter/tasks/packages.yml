@@ -15,11 +15,14 @@
 - name: Adding Jupyter Lab
   pip:
     name: jupyterlab
+    executable: pip3
     
 - name: Adding Shell Kernel for Jupyter 
   pip:
     name: bash_kernel
+    executable: pip3
 
 - name: Adding Data Science Library
   pip:
     name: ['pandas', 'matplotlib', 'sklearn']
+    executable: pip3
