@@ -8,7 +8,7 @@
 
 - name: Ensure we have the Docker requirements
   apt: 
-    name: ['apt-transport-https ', 'ca-certificates ', 'curl ', 'gnupg2 ', 'software-properties-common ', 'aufs-dkms ', 'aufs-tools ', 'cgroupfs-mount ', 'pigz']
+    name: ['apt-transport-https', 'ca-certificates', 'curl', 'gnupg2', 'software-properties-common', 'aufs-dkms', 'aufs-tools', 'cgroupfs-mount', 'pigz']
     update_cache: yes 
     state: present
 
@@ -19,7 +19,7 @@
     
 - name: Install Docker
   apt: 
-    name: ['docker-ce', 'docker-ce-cli' 'containerd.io']
+    name: ['docker-ce', 'docker-ce-cli', 'containerd.io']
     update_cache: yes 
     state: present
 
