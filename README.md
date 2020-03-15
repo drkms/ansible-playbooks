@@ -1,4 +1,4 @@
-Ansible Playboos Repository !
+Ansible Playbooks Repository !
 ==========================
 
 These playbooks aim to help you install several basic setup in order to quickly get a comfortable desktop environment.
