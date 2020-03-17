@@ -1,0 +1,10 @@
+---
+- name: Full Install
+  hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: no
+  roles:
+    - basic
+    - jupyter
+    - docker
